@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.Logotipo-daniel{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #006494;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    color:#E8F1F2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color: #13293d;
+    font-size: 60px;
+    text-align: center;
+    padding:20px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.projetoalistamento{
+    display: flex;
+    flex-direction: column;
+       width: 500px;
+
+}
+
+.alistamento{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px;
+    
+}
+
+.embreve1, .embreve2{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.emb1, .emb2, .emb3{
+    padding: 20px;
+    width: 280px;
+    display: flex;  
+    flex-direction: column;
+    border-color: #006494;
+    border-radius: 35px;
+}
+
+.projetos-itens{
+    display: flex;
+    align-content: center;
+
+}
+
+.logo-items{
+    width: 20px;
+    display:flex;
+    flex-direction: column;
+    text-align: center;    
+}
+
+.tecitems{
+    color:#13293d;
+    text-align: center;
+    font-size: 19px;
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+.descricao{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-tec-items{
+    display: flex;
+    flex-direction: column;
+    align-items:baseline; 
+    padding-left: 150px;
+}
+
+li{
+    font-size: 20px;
+}
+
+.button-ver-mais{
+    width: 180px;
+    height: 60px;
+    border-radius: 40px;
+    color:#E8F1F2;
+    background-color: #045074;
+    border-color: #045074;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 630px;
+}
+
+

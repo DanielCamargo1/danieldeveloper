@@ -1,0 +1,74 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.Logotipo-daniel{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #006494;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    color:#E8F1F2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #13293d;
+    font-size: 50px;
+    padding:5px;
+}
+
+h3{
+    font-size: 20px;
+    color:#035f8a9c;
+    padding: 5px;
+}
+
+.logo-nome{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    margin-left: 60px;
+    gap:10px;
+
+}
+
+.nome{
+    font-size: 20px;
+    color:#13293d;
+}
+
+.logo-item{
+    width: 90px;
+}
+
+.comentario-logo{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.comentario{
+    font-size: 20px;
+    padding-left: 100px;
+    color:#045479;
+}

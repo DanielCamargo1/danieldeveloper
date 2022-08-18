@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background-color:#E8F1F2;
+}
+
+.Logotipo-daniel{
+    width: 80px;
+    border-radius: 50%;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #006494;
+}
+
+.cabecalho-menu{
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item{
+    color:#E8F1F2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.conteudo-do-site{
+    border-top: 0.8px solid #13293d;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nome-profissao-resumo{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
+
+.nome-e-profissao{
+    margin-top: -120px;
+}
+
+h1{
+    font-size: 50px;
+    font-family: brush;
+    color:#045074;
+}
+
+h2{
+    font-size: 20px;
+    
+}
+
+h3{
+    font-family: brush;
+}
+
+.imagemdev{
+    width: 650px;
+    transform: translate(0px);
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%{
+        transform:translate(0px);
+    }
+    50%{
+        transform:translate(-30px);
+
+    }
+    100%{
+        transform: translate(0px);
+    }
+}
+
+.resumo-e-botao{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap:40px;
+    align-items: center;
+    
+}
+
+.button{
+    width: 180px;
+    height: 60px;
+    border-radius: 40px;
+    color:#E8F1F2;
+    background-color: #045074;
+    border-color: #045074;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    transition: background 1s;
+    
+}
+
+button:hover,
+button:focus {
+    background: #102436;
+}
+
+.logo{
+    display: flex;
+    gap: 10px;
+    flex-direction: row;
+    
+}
+
+.git{
+    width: 30px;
+}
+
+.gmail{
+    width: 30px;
+}
+
+.tel{
+    width: 30px;
+}
+
+.wpp{
+    width: 30px;
+}
+
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 10px;
+    align-items: flex-start;
+    margin-top: -250px;
+}
+
+.h1-developer-icon,.h2-front-coff{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:5px;
+    
+}
+
+.developer-icon{
+    width: 28px;
+    height: 28px;
+}
+
+.coffe-icon{
+    width: 25px;
+}
+
+.h2-front-coffe{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+footer{
+    background-color: #045074;
+}
+
+.coffe-icon{
+    width: 25px;
+    transform: translate(0px);
+}
